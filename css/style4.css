@@ -1,0 +1,132 @@
+/* Estilos del body */
+body{
+	padding: 50px;;
+	margin:0 auto;
+}
+
+/* Estilos de las etiquetas semánticas principales */
+header, footer, nav, section, main {
+	background-color:silver;
+	color:#fff;
+	border-radius:5px;
+	padding:5px;
+	font-size:100%;
+	margin:5px;	
+}
+
+/* Estilos del nav y sus botones */
+nav{
+	width: 100%;
+}
+
+a {
+	background:transparent;
+	text-decoration:none;
+	border-bottom:1px dotted
+}
+
+a:link {
+	color:#1b67c9
+}
+
+a:visited {
+	color:darkorchid
+}
+
+a:hover {
+	border-bottom:1px solid
+}
+
+h1 a, h2 a, h3 a {
+	color:inherit !important
+}
+
+nav ul {
+	margin:0;
+	padding:0 1em 0 0;
+	text-align:center;
+}
+
+nav li {
+	display:inline;
+	padding-left:1em;
+}
+
+/* Estilos del contenedor header. */
+header {
+	background-image: url('../img/header.jpg');
+	background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #00A1C0;
+    color:#fcfcfc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height:30%;
+    width:100%;
+}
+	
+/* Estilos del contenedor main. */
+main {
+	width:100%;
+	background-color: #c00050;
+	display: flex;
+    flex-direction: column;
+	align-items: center;
+}
+
+section{
+    border-radius: 5px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+form {
+    /* Centrar el formulario en la página */
+    margin: 0 auto;
+    width: 400px;
+  }
+  
+  label {
+    /* Tamaño y alineación uniforme */
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+  }
+  
+  input,
+  textarea {
+    /* Para asegurarse de que todos los campos de texto tienen la misma configuración de letra
+       Por defecto, las áreas de texto tienen un tipo de letra monoespaciada */
+    font: 1em sans-serif;
+  
+    /* Tamaño uniforme del campo de texto */
+    width: 300px;
+    box-sizing: border-box;
+  }
+  
+  textarea {
+    /* Alinear los campos de texto multilínea con sus etiquetas */
+    vertical-align: top;
+  
+    /* Proporcionar espacio para escribir texto */
+    height: 5em;
+  }
+  
+  .button {
+    /* Alinear los botones con los campos de texto */
+    padding-left: 90px; /* mismo tamaño que los elementos de la etiqueta */
+  }
+  
+  button {
+    /* Este margen adicional representa aproximadamente el mismo espacio que el espacio
+       entre las etiquetas y sus campos de texto */
+    margin-left: 0.5em;
+  }
+
+footer {
+	text-align:center;
+    width: 100%;
+}

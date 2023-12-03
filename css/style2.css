@@ -1,0 +1,108 @@
+/* Estilos del body */
+body{
+	padding: 50px;;
+	margin:0 auto;
+}
+
+/* Estilos de las etiquetas semánticas principales */
+header, footer, nav, section, main {
+	background-color:silver;
+	color:#fff;
+	border-radius:5px;
+	padding:5px;
+	font-size:100%;
+	margin:5px;	
+}
+
+/* Estilos del nav y sus botones */
+nav{
+	width: 100%;
+}
+
+a {
+	background:transparent;
+	text-decoration:none;
+	border-bottom:1px dotted
+}
+
+a:link {
+	color:#1b67c9
+}
+
+a:visited {
+	color:darkorchid
+}
+
+a:hover {
+	border-bottom:1px solid
+}
+
+h1 a, h2 a, h3 a {
+	color:inherit !important
+}
+
+nav ul {
+	margin:0;
+	padding:0 1em 0 0;
+	text-align:center;
+}
+
+nav li {
+	display:inline;
+	padding-left:1em;
+}
+
+/* Estilos del contenedor header. */
+header {
+	background-image: url('../img/header.jpg');
+	background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #00A1C0;
+    color:#fcfcfc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height:30%;
+    width:100%;
+}
+	
+/* Estilos del contenedor main. */
+main {
+	width:100%;
+	background-color: #c00050;
+	display: flex;
+    flex-direction: column;
+	align-items: center;
+}
+
+section{
+    background: #c00050;
+    border-radius: 5px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex; 
+}
+
+/* Estilos del contenedor article. */
+article{
+    outline: 3px salmon solid;
+    margin: 15px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imgp{
+	width: 500px;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+/* Estilos del contenedor footer. */
+footer {
+	text-align:center;
+	width: 100%;
+}
